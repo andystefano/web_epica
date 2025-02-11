@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { PiArrowDownThin, PiArrowRightThin  } from "react-icons/pi";
+
 export default function Home() {
   return (
     <div>
@@ -17,33 +19,34 @@ export default function Home() {
               fundación
             </h2>
             <div className="p-6 rounded-lg shadow-lg flex w-full">
-              <div className="w-[70%] pr-4">
-                <h3 className="text-xl font-bold text-gray-800 mb-4 text-7xl font-bold text-[#93d3e1]">
+              <div className="w-[68%] pr-4">
+                <h3 className="font-black font-mona mb-4 text-7xl font-bold text-[#93d3e1]">
                   ESPACIO PARA <br />
                   LA INNOVACIÓN <br />Y CREACIÓN <br />
                   ARTÍSTICA
                 </h3>
               </div>
 
-              <div className="w-[30%]">
-                <p className="mb-4 text-[#93d3e1] text-right">
-                  Postula a ÉPICA: Residencia Cuir, una iniciativa impulsada por
-                  Fundación Antenna <br />y Fundación Mecenas que celebra la
+              <div className="w-[32%]">
+                <p className="mb-4 text-[#93d3e1] text-right font-mona font-extraligth">
+                  <strong className="font-bold">Postula a ÉPICA</strong>: Residencia Cuir, una iniciativa impulsada por 
+                  <strong className="font-bold"> Fundación Antenna</strong> <br />y <strong className="font-bold">Fundación Mecenas</strong> que celebra la
                   <br />
                   diversidad, la creatividad y el potencial de
-                  <br /> artistas de la comunidad LGBTIC+.
+                  <br /> artistas de la comunidad LGBTIQ+.
                 </p>
 
-                <div>Flecha</div>
+
+                <div><PiArrowDownThin size={80} color="#93d3e1" /></div>
                 <a
                   href="#"
-                  className="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300 text-right"
+                  className="inline-block font-mona text-[#93d3e1] px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300 text-right"
                 >
                   CONOCE LAS BASES AQUÍ
                 </a>
                 <a
                   href="#"
-                  className="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300 text-right"
+                  className="inline-block font-mona text-[#93d3e1] px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300 text-right"
                 >
                   POSTULA
                 </a>
@@ -55,7 +58,7 @@ export default function Home() {
         <section className="bg-[#ff92da]  shadow-md p-4">
           <div className="max-w-6xl  mx-auto flex ">
             <div className="w-[50%]">
-              <div className="text-3xl text-[#00225b] ">
+              <div className="text-3xl text-[#00225b]  font-mona font-extraligth">
                 Con un enfoque interdisciplinario
                 <br />
                 en <span className="font-bold">Artes Vivas</span>, esta
@@ -69,36 +72,43 @@ export default function Home() {
 
             <div className="w-[50%]">
               <div>
-                <ul className="text-l text-[#00225b] text-left">
-                  <li>
-                    <span className="font-bold">Un espacio de trabajo</span> en
-                    Balmaceda Arte Joven en Sontiago
-                  </li>
-                  <li>
-                    <span className="font-bold">
-                      Mentorías destacados artistas
-                    </span>{" "}
-                    Corno Hernán Garfios, Alexandra Mabes, Ernesto Orellana y
-                    Rodrigo TA.
-                  </li>
-                  <li>
-                    <span className="font-bold">
-                      Honorarios y recursos para tu proyecto
-                    </span>{" "}
-                    asegurando tiempo y energia para la creación
-                  </li>
-                  <li>
-                    <span className="font-bold">Exhibición final</span> ocra
-                    presentar tu obra 01 público y 01 circuito artistico.
-                  </li>
-                </ul>
+              <ul className="text-lg text-[#00225b] text-left">
+  <li className="flex items-center gap-4">
+    <PiArrowRightThin size={40} color="#00225b" />
+    <div>
+      <span className="font-bold">Un espacio de trabajo</span> en Balmaceda Arte Joven en Santiago
+    </div>
+  </li>
+
+  <li className="flex items-center gap-4">
+    <PiArrowRightThin size={40} color="#00225b" />
+    <div>
+      <span className="font-bold">Mentorías con destacados artistas</span> como Hernán Garfios, Alexandra Mabes, Ernesto Orellana y Rodrigo TA.
+    </div>
+  </li>
+
+  <li className="flex items-center gap-4">
+    <PiArrowRightThin size={40} color="#00225b" />
+    <div>
+      <span className="font-bold">Honorarios y recursos para tu proyecto</span> asegurando tiempo y energía para la creación.
+    </div>
+  </li>
+
+  <li className="flex items-center gap-4">
+    <PiArrowRightThin size={40} color="#00225b" />
+    <div>
+      <span className="font-bold">Exhibición final</span> para presentar tu obra al público y al circuito artístico.
+    </div>
+  </li>
+</ul>
+
               </div>
             </div>
           </div>
         </section>
 
-        <section className="text-center bg-[#4a0009] text-[#f189cd] p-4 text-2xl font-bold">
-          <div className="w-full text-center bg-[#4a0009] text-[#f189cd] ">
+        <section className="text-center bg-[#4a0009] text-[#f189cd] p-4 font-bold">
+          <div className="w-full text-xl text-center font-bold font-mona bg-[#4a0009] text-[#f189cd] ">
             EXPLORA, EXPERIMENTA Y CREA EN UN ESPACIO SEGURO QUE IMPULSA NUEVAS
             NARRATIVAS
           </div>
@@ -106,8 +116,8 @@ export default function Home() {
 
         <section className="bg-[#ff8c42]  shadow-md p-4">
           <div className="max-w-6xl  mx-auto ">
-            <h2 className="text-6xl font-extrabold w-full text-center mt-4 text-[#4a0009]">¿Quién puede postular?</h2>
-            <p className="text-2xl font-bold w-full text-center mt-4 mb-4 mx-auto text-[#4a0009]">
+            <h2 className="text-6xl font-mona font-black w-full text-center mt-4 text-[#4a0009]">¿Quién puede postular?</h2>
+            <p className="text-2xl  font-mona font-normal w-full text-center mt-4 mb-4 mx-auto text-[#4a0009]">
               Personas pertenecientes a la comunidad LGTBIQA+ (mayores de 24 años),<br/>
 residentes en Chile, con el potencial para ser agentes de cambio en la<br/>
 promoción y posicionamiento del Arte Cuir con énfasis en<br/>
