@@ -26,3 +26,32 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+  cursor: url('/public/img/cursor/section1I.png'), auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: rgb(0,0,0);
+background: linear-gradient(97deg, rgba(255, 139, 65, 1) 0%,rgba(255, 139, 65, 1) 20%, rgba(0, 108, 77, 1) 25%,rgba(0, 108, 77, 1) 40%, rgba(239,68,68,0.6564399441417192) 45%, rgba(255, 246, 230, 1) 65%, rgba(246, 212, 194, 1) 90%);
+border-radius: 5px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #490009; 
+  border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00225b; 
+  border-radius: 5px;
+}

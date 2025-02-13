@@ -4,7 +4,7 @@ import { PiArrowDownThin, PiArrowRightThin } from "react-icons/pi";
 
 export default function Section2() {
   return (
-    <section className="bg-[#ff92da] ">
+    <section className="bg-[#ff92da]  cursor-[url('/img/cursor/section2I.png'),_auto]">
       <div className="max-w-6xl  mx-auto flex p-8 ">
         <div className="w-[50%]">
           <div className="text-3xl text-[#00225b]  font-mona font-extraligth">
