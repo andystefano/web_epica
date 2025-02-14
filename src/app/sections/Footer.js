@@ -19,8 +19,8 @@ export default function Footer() {
         </div>
 
         <div className="w-1/3">
-          <div class="flex flex-col justify-between mx-auto">
-            <div class="p-4">
+          <div className="flex flex-col justify-between mx-auto">
+            <div className="p-4">
               <h3 className="text-2xl font-bold font-mona text-left text-[#002660]">
                 Contactanos
               </h3>
@@ -28,7 +28,7 @@ export default function Footer() {
                 epicaresidencia@antenna.cl
               </h4>
             </div>
-            <div class="p-4">
+            <div className="p-4">
               <div className="flex items-center gap-4">
                 <img src="/img/logos/antenna_azul.png" className="w-[7rem]" />
                 <img src="/img/logos/mecenas_azul.png" className="w-[3rem]" />
