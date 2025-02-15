@@ -67,8 +67,8 @@ export default function Section2() {
     <section className="bg-[#ff92da] cursor-[url('/img/cursor/section2I.png'),_auto]">
       {/* Asignamos el ref al contenedor para detectar la visibilidad */}
       <div className="max-w-6xl mx-auto flex p-8" ref={ref}>
-        <div className="w-[50%]">
-          <animated.div style={leftTextSpring} className="text-3xl text-[#00225b] font-mona font-extraligth">
+        <div className="w-[50%] p-4">
+          <animated.div style={leftTextSpring} className="text-[1.66rem] leading-[2rem] text-[#00225b] font-mona font-extraligth ">
             Con un enfoque interdisciplinario
             <br />
             en <span className="font-bold">Artes Vivas</span>, esta residencia
@@ -79,14 +79,14 @@ export default function Section2() {
           </animated.div>
         </div>
 
-        <div className="w-[50%]">
+        <div className="w-[50%]  p-4 pr-3">
           <div>
-            <ul className="text-lg text-[#00225b] text-left space-y-4">
+            <ul className="text-[1rem] text-[#00225b] text-left space-y-2">
               {trail.map((props, index) => (
                 <animated.li
                   key={listItems[index].id}
                   style={props}
-                  className="grid grid-cols-[40px_1fr] items-center gap-4"
+                  className="grid grid-cols-[40px_1fr] items-center gap-3"
                 >
                   <PiArrowRightThin size={40} color="#00225b" />
                   {listItems[index].content}
