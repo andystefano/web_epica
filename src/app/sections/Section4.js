@@ -31,11 +31,11 @@ export default function Section4() {
   return (
     <section className="bg-[#ff8c42] shadow-md cursor-[url('/img/cursor/headerI.png'),_auto] py-16">
       {/* Asignamos el ref al contenedor para detectar su visibilidad */}
-      <div className="max-w-6xl mx-auto p-8" ref={ref}>
-        <animated.h2 style={titleSpring} className="text-6xl font-mona font-black w-full text-center mt-4 text-[#4a0009]">
+      <div className="max-w-6xl mx-auto p-8 pt-4 pb-1" ref={ref}>
+        <animated.h2 style={titleSpring} className="text-6xl font-mona font-black w-full text-center text-[#4a0009]">
           ¿Quién puede postular?
         </animated.h2>
-        <animated.p style={pSpring} className="text-2xl font-mona font-normal w-full text-center mt-4 mb-4 mx-auto text-[#4a0009]">
+        <animated.p style={pSpring} className="text-2xl font-mona font-normal w-full text-center mt-8 mx-auto text-[#4a0009]">
           Personas pertenecientes a la comunidad LGTBIQA+ (mayores de 24 años),<br />
           residentes en Chile, con el potencial para ser agentes de cambio en la<br />
           promoción y posicionamiento del Arte Cuir con énfasis en<br />

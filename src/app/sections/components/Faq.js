@@ -10,7 +10,8 @@ export default function Faq() {
         <div
           id="accordion"   style={{
             color: '#93d3e1',
-            borderTop:'2px solid #93d3e1'
+            borderTop:'2px solid #93d3e1',
+            marginTop:'10px'
           }}
         >
           <AcordeonTab titulo={'¿Qué son las artes vivas?'} contenido={'Las postulaciones se pueden enviar desde el día 26 de junio 2024 hasta el día 25 de septiembre, a las 23:59 hrs. Las postulaciones que lleguen después serán consideradas como fuera de base.'} />

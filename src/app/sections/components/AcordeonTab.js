@@ -21,10 +21,10 @@ export default function AcordeonTab({titulo,contenido}) {
                   borderBottom:'2px solid #93d3e1'
                 }}>
               <div
-                className="text-black  font-unbounded  font-normal text-left w-11/12"
+                className="text-black  font-unbounded  font-light text-left w-11/12"
               >
                 <h3 
-                 onClick={() => setOpenTab(!openTab)}  className="  w-full  pt-5 pb-5 pl-5 pb-1 text-left  text-[#93d3e1] font-mona">
+                 onClick={() => setOpenTab(!openTab)}  className="text-xs  w-full  pt-5 pb-5 pl-5 pb-1 text-left  text-[#93d3e1] font-mona">
                 {titulo}
                 </h3>
               </div>
