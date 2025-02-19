@@ -22,15 +22,17 @@ export default function Section1() {
             <div className="flex flex-col justify-between h-full">
               <div>
                 <p className="mb-4 text-[#93d3e1] text-[1.053rem] leading-[1.2rem] text-right font-mona font-extralight">
-                  <strong className="font-medium tracking-tight">Postula a ÉPICA</strong>:
-                  Residencia Cuir, una iniciativa impulsada por
+                  Postula a <strong className="font-medium tracking-tight">ÉPICA:
+                  Residencia Cuir</strong>, una iniciativa impulsada por
                   <strong className="font-bold"> Fundación Antenna</strong>{" "}
                   <br />y{" "}
                   <strong className="font-bold">Fundación Mecenas</strong> que
                   celebra la
                   <br />
                   diversidad, la creatividad y el potencial de
-                  <br /> artistas de la comunidad LGBTIQ+.
+                  <br /> artistas cuir.
+
+                  
                 </p>
               </div>
               <div className="flex flex-col items-end w-full">

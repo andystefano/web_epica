@@ -28,6 +28,7 @@ export default function Section3() {
       >
         EXPLORA, EXPERIMENTA Y CREA EN UN ESPACIO SEGURO QUE IMPULSA NUEVAS
         NARRATIVAS
+        
       </animated.div>
     </section>
   );

@@ -14,7 +14,23 @@ export default function Faq() {
             marginTop:'10px'
           }}
         >
-          <AcordeonTab titulo={'¿Qué son las artes vivas?'} contenido={'Las postulaciones se pueden enviar desde el día 26 de junio 2024 hasta el día 25 de septiembre, a las 23:59 hrs. Las postulaciones que lleguen después serán consideradas como fuera de base.'} />
+          <AcordeonTab titulo={'¿Qué son las artes vivas?'} contenido={'Entendemos por artes vivas las prácticas artísticas que investigan desde el cuerpo y exploran cruces e hibridaciones con diversas disciplinas, como la música, las artes plásticas, la arquitectura y la escritura, entre muchas otras, ofreciendo un espacio abierto para la experimentación y la interacción con otros en tiempo real.'} />
+         
+          <AcordeonTab titulo={'¿Qué es el cuirismo o arte cuir?'} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+          <AcordeonTab titulo={''} contenido={''} />
+
+         
+         
           <AcordeonTab titulo={' ¿Qué significa ser parte de la comunidad LGBTIQ+?'} contenido={'No, solamente se puede postular una obra por cada artista o postulante.'} />
           <AcordeonTab titulo={'¿Sí soy simpatizante de la comunidad LGBTIQ+ puedo participar?'} contenido={'Si, las participantes de las convocatorias anteriores pueden postular, a excepción de las ganadoras de las versiones anteriores.'} />
           <AcordeonTab titulo={'¿Qué es Fundación Antenna?'} contenido={'No, el premio no es de adquisición.'} />

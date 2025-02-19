@@ -33,7 +33,7 @@ export default function Section2() {
       id: 2,
       content: (
         <div>
-          <span className="font-bold">Mentorías con destacados artistas</span> como Hernán Garfios, Alexandra Mabes, Ernesto Orellana y Rodrigo TA.
+          <span className="font-bold">Mentorías con destacados artistas</span> como Hernán Garfios, Alexandra Mabes, Ernesto Orellana y Rodrigo Tisi.
         </div>
       ),
     },
@@ -63,6 +63,7 @@ export default function Section2() {
     delay: 200,
   });
 
+
   return (
     <section className="bg-[#ff92da] cursor-[url('/img/cursor/section2I.png'),_auto]">
       {/* Asignamos el ref al contenedor para detectar la visibilidad */}
@@ -75,7 +76,7 @@ export default function Section2() {
             <br />
             ofrece a artistas de la comunidad
             <br />
-            LGBTIQ+ desde los 24 años:
+            cuir desde los 24 años:
           </animated.div>
         </div>
 
