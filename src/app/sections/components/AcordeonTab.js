@@ -41,8 +41,8 @@ export default function AcordeonTab({titulo,contenido}) {
               <div>
               {openTab && (
                       <div className="">
-                      <p       dangerouslySetInnerHTML={{ __html: contenido }}
- className="font-medium w-full py-3 font-medium text-left pl-3  text-[#93d3e1]">                      
+                      <p        dangerouslySetInnerHTML={{ __html: contenido }}
+ className="font-thin w-full py-3 text-left pl-3  text-[#93d3e1] text-xs  font-mona">                      
                       </p>
                     </div>
                     )}
