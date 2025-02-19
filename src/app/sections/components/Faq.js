@@ -15,27 +15,11 @@ export default function Faq() {
           }}
         >
           <AcordeonTab titulo={'¿Qué son las artes vivas?'} contenido={'Entendemos por artes vivas las prácticas artísticas que investigan desde el cuerpo y exploran cruces e hibridaciones con diversas disciplinas, como la música, las artes plásticas, la arquitectura y la escritura, entre muchas otras, ofreciendo un espacio abierto para la experimentación y la interacción con otros en tiempo real.'} />
-         
-          <AcordeonTab titulo={'¿Qué es el cuirismo o arte cuir?'} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-          <AcordeonTab titulo={''} contenido={''} />
-
-         
-         
-          <AcordeonTab titulo={' ¿Qué significa ser parte de la comunidad LGBTIQ+?'} contenido={'No, solamente se puede postular una obra por cada artista o postulante.'} />
-          <AcordeonTab titulo={'¿Sí soy simpatizante de la comunidad LGBTIQ+ puedo participar?'} contenido={'Si, las participantes de las convocatorias anteriores pueden postular, a excepción de las ganadoras de las versiones anteriores.'} />
-          <AcordeonTab titulo={'¿Qué es Fundación Antenna?'} contenido={'No, el premio no es de adquisición.'} />
-          <AcordeonTab titulo={'¿Qué es Fundación Mecenas?'} contenido={'Jurado ciego significa que, al momento de deliberar, los jurados no saben a qué artista pertenece cada obra, solo tienen acceso a la información visual enviada de la obra postulada, misma metodología aplica para el voto del público.<br/>Para lo anterior, es importante también que en la fotografía de la obra postulada no aparezca el rostro de la postulante, con el fin de no revelar su identidad. '} />
-          <AcordeonTab titulo={'¿Qué es Balmaceda Arte Joven?'} contenido={'La convocatoria está abierta a todas las disciplinas de las artes plásticas, por ello la postulación es mediante el envío de fotografías que den cuenta de la obra postulada o un link para poder verla online.<br/><br/>Esto incluye, pero no está limitado a las siguientes técnicas: pintura, escultura, fotografía, arte textil, instalación, video arte, cerámica, dibujo.'} />
+          <AcordeonTab titulo={'¿Qué es el cuirismo o arte cuir?'} contenido={'El “cuirismo” o “arte cuir”, según la Fundación Mecenas, es una corriente artística interdisciplinaria que explora la fluidez de género, sexualidad y corporalidad. A través de diversas prácticas artísticas—visuales, performativas, literarias y sonoras—cuestiona las normas establecidas y visibiliza identidades marginadas.'} />
+          <AcordeonTab titulo={'¿Sí soy simpatizante de la comunidad LGBTIQA+ puedo participar?'} contenido={'No. Residencia Épica está pensada para personas y colectivos que forman parte de la comunidad LGBTIQA+ y cuir.'} />
+          <AcordeonTab titulo={'¿Qué es Fundación Antenna?'} contenido={'Antenna es una fundación que se dedica a acercar el arte y la cultura a las personas, contribuyendo al desarrollo cultural del país. Buscamos generar  proyectos con impacto social, que beneficien a diversos grupos y territorios, vinculando a diversos agentes tales como artistas, instituciones, mundo público y privado, para enriquecer y aportar al ecosistema cultural.'} />
+          <AcordeonTab titulo={'¿Qué es Fundación Mecenas? '} contenido={'Fundación Mecenas es una organización sin fines de lucro dedicada a impulsar artivismo cuir como una herramienta de empoderamiento colectivo y transformación cultural, promoviendo la resiliencia y el bienestar biopsicosocial de la comunidad LGBTIQA+. En respuesta a la discriminación estructural y la precarización del arte en Chile, la fundación articula redes solidarias y diálogos intersectoriales para fortalecer la autonomía de artistas cuir y garantizar espacios seguros e inclusivos. A través de su enfoque transdisciplinario e intersectorial, promueve la convergencia creativa, la resistencia y la excelencia técnica, reivindicando estéticas, corporalidades y narrativas marginadas. Su modelo de colaboración integra múltiples formas de vinculación con artistas, investigadores, activistas e inversores, fomentando una comunidad vibrante y sostenible.'} />
+          <AcordeonTab titulo={'¿Qué es Balmaceda Arte Joven?'} contenido={'Balmaceda Arte Joven (BAJ) es una corporación cultural sin fines de lucro que promueve la libertad creativa, el pensamiento crítico, la autorreflexión y el sentido de comunidad a través de una educación artística innovadora y de calidad para los y las jóvenes del país.'} />
         </div>
   );
 }
