@@ -31,7 +31,7 @@ export default function Section4() {
   return (
     <section className="bg-[#ff8c42] shadow-md cursor-[url('/img/cursor/headerI.png'),_auto] py-16">
       {/* Asignamos el ref al contenedor para detectar su visibilidad */}
-      <div className="max-w-6xl mx-auto p-8 pt-4 pb-1" ref={ref}>
+      <div className="w-full mx-auto p-8 pt-4 pb-1" ref={ref}>
         <animated.h2 style={titleSpring} className="text-6xl font-mona font-black w-full text-center text-[#4a0009]">
           ¿Quién puede postular?
         </animated.h2>

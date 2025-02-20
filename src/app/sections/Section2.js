@@ -67,7 +67,7 @@ export default function Section2() {
   return (
     <section className="bg-[#ff92da] cursor-[url('/img/cursor/section2I.png'),_auto]">
       {/* Asignamos el ref al contenedor para detectar la visibilidad */}
-      <div className="max-w-6xl mx-auto sm:flex p-8 pb-4" ref={ref}>
+      <div className="w-full mx-auto sm:flex p-8 pb-4" ref={ref}>
         <div className="w-full sm:w-[50%] p-4">
           <animated.div style={leftTextSpring} className="text-[1.66rem] leading-[2rem] text-[#00225b] font-mona font-extraligth ">
             Con un enfoque interdisciplinario

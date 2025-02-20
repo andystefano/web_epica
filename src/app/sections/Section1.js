@@ -5,7 +5,7 @@ import { PiArrowDownThin, PiArrowRightThin } from "react-icons/pi";
 export default function Section1() {
   return (
     <section className="bg-[#004632] cursor-[url('/img/cursor/section1I.png'),_auto]">
-      <div className="max-w-6xl mx-auto p-6 pb-9">
+      <div className="w-full mx-auto p-6 pb-9">
         <div className="flex items-center gap-8" style={{
     marginTop: "1.91%",
     marginLeft: "1.7%"
@@ -45,7 +45,7 @@ export default function Section1() {
                 </p>
 
               </div>
-              <div className="flex flex-col items-end w-full">
+              <div className="flex flex-col items-center sm:items-end w-full">
                 <div>
                   <PiArrowDownThin size={43} color="#93d3e1" />
                 </div>
