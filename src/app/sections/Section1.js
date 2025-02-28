@@ -15,7 +15,8 @@ export default function Section1() {
         </div>
         <div className="rounded-lg block sm:flex w-full mt-10">
           <div className="w-full sm:w-[68%]">
-          <img src="/img/textos/web.png" className="w-[90%]"  style={{ marginTop: "12%" }}></img>
+          <img src="/img/textos/web.png" className="w-[90%] hidden sm:block"  style={{ marginTop: "12%" }}/>
+          <img src="/img/textos/movil.png" className="w-[100%] block sm:hidden"  style={{ marginTop: "12%" }}/>
           </div>
 
           <div className="w-full sm:w-[32%]" style={{ marginTop:"12%"}}>
