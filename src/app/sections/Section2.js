@@ -68,8 +68,8 @@ export default function Section2() {
     <section className="bg-[#ff92da] cursor-[url('/img/cursor/section2I.png'),_auto]">
       {/* Asignamos el ref al contenedor para detectar la visibilidad */}
       <div className="w-full mx-auto sm:flex p-8 pb-4" ref={ref}>
-        <div className="w-full sm:w-[50%] p-4">
-          <animated.div style={leftTextSpring} className="text-[1.66rem] leading-[2rem] text-[#00225b] font-mona font-extraligth ">
+        <div className="w-full sm:w-[50%] p-4 hidden sm:block">
+          <animated.div style={leftTextSpring} className="text-[1.5rem] leading-[1.7rem] sm:text-[2rem] sm:leading-[2.3rem] text-[#00225b] font-mona font-extraligth ">
             Con un enfoque interdisciplinario
             <br />
             en <span className="font-bold">Artes Vivas</span>, esta residencia
@@ -80,9 +80,18 @@ export default function Section2() {
           </animated.div>
         </div>
 
-        <div className="w-full sm:w-[50%]  p-4 pr-3">
+        <div className="w-full sm:w-[50%] p-4 block sm:hidden">
+          <animated.div style={leftTextSpring} className="text-[1.5rem] leading-[1.7rem] sm:text-[2rem] sm:leading-[2.3rem] text-[#00225b] font-mona font-extraligth ">
+            Con un enfoque interdisciplinario
+            en <span className="font-bold">Artes Vivas</span>, esta residencia
+            ofrece a artistas de la comunidad
+            cuir desde los 24 años:
+          </animated.div>
+        </div>
+
+        <div className="w-full sm:w-[50%]  p-4 pr-3 hidden sm:block">
           <div>
-            <ul className="text-[1rem] text-[#00225b] text-left space-y-2">
+            <ul className="text-[1.4rem] text-[#00225b] text-left space-y-2">
               {trail.map((props, index) => (
                 <animated.li
                   key={listItems[index].id}
@@ -96,6 +105,25 @@ export default function Section2() {
             </ul>
           </div>
         </div>
+
+
+        <div className="w-full sm:w-[50%]  p-4 pr-3 block sm:hidden">
+          <div>
+            <ul className="text-[1.15rem] leading-[1.35rem] text-[#00225b] text-left space-y-2">
+              {trail.map((props, index) => (
+                <animated.li
+                  key={listItems[index].id}
+                  style={props}
+                  className="grid grid-cols-[40px_1fr] items-start gap-3 pb-5"
+                >
+                  <PiArrowRightThin size={40} color="#00225b" />
+                  {listItems[index].content}
+                </animated.li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section>
   );

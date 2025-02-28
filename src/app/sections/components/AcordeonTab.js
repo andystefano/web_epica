@@ -24,7 +24,7 @@ export default function AcordeonTab({titulo,contenido}) {
                 className="text-black  font-unbounded  font-light text-left w-11/12"
               >
                 <h3 
-                 onClick={() => setOpenTab(!openTab)}  className="text-xs  w-full  pt-5 pb-5 pl-5 pb-1 text-left  text-[#93d3e1] font-mona">
+                 onClick={() => setOpenTab(!openTab)}  className="text-lg	  w-full  pt-5 pb-5 pl-5 pb-1 text-left  text-[#93d3e1] font-mona">
                 {titulo}
                 </h3>
               </div>
@@ -42,7 +42,7 @@ export default function AcordeonTab({titulo,contenido}) {
               {openTab && (
                       <div className="">
                       <p        dangerouslySetInnerHTML={{ __html: contenido }}
- className="font-thin w-full py-3 text-left pl-3  text-[#93d3e1] text-xs  font-mona">                      
+ className="font-thin w-full py-3 text-left pl-3  text-[#93d3e1] text-base	  font-mona">                      
                       </p>
                     </div>
                     )}

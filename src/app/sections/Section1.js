@@ -21,20 +21,20 @@ export default function Section1() {
           <div className="w-full sm:w-[32%]" style={{ marginTop:"12%"}}>
             <div className="flex flex-col justify-between h-full">
               <div>
-                <p className="hidden sm:block mb-4 text-[#93d3e1] text-[1.053rem] leading-[1.2rem] text-left sm:text-right font-mona font-extralight">
+                <p className="hidden sm:block mb-4 text-[#93d3e1] text-[1.3rem] leading-[1.55rem] text-left sm:text-right font-mona font-extralight">
                   Postula a <strong className="font-medium tracking-tight">ÉPICA:
-                  Residencia Cuir</strong>, una iniciativa impulsada por
+                  Residencia Cuir</strong>,<br/> una iniciativa impulsada por
                   <strong className="font-bold"> Fundación Antenna</strong>{" "}
-                  <br />y{" "}
+                  <br/>y&nbsp;
                   <strong className="font-bold">Fundación Mecenas</strong> que
                   celebra la
-                  <br />
-                  diversidad, la creatividad y el potencial de
-                  <br /> artistas cuir. 
+                  
+                  diversidad,<br/>la creatividad y el potencial de
+                  artistas cuir. 
                 </p>
 
                 <p className="block sm:hidden mb-4 text-[#93d3e1] text-[1.053rem] leading-[1.2rem] text-left sm:text-right font-mona font-extralight">
-                  Postula a <strong className="font-medium tracking-tight">ÉPICA:
+                 Postula a <strong className="font-medium tracking-tight">ÉPICA:
                   Residencia Cuir</strong>, una iniciativa impulsada por
                   <strong className="font-bold"> Fundación Antenna</strong> y
                   <strong className="font-bold">Fundación Mecenas</strong> que
@@ -45,16 +45,16 @@ export default function Section1() {
                 </p>
 
               </div>
-              <div className="flex flex-col items-center sm:items-end w-full">
+              <div className="flex flex-col items-center sm:items-end w-full sm:mt-0 mt-6">
                 <div>
-                  <PiArrowDownThin size={43} color="#93d3e1" />
+                  <PiArrowDownThin size={55} color="#93d3e1" />
                 </div>
-                <a href="#" className="font-mona text-[#93d3e1] text-rigth ">
+                <a href="#" className="mt-4 sm:mt-0 font-mona text-[#93d3e1] text-rigth  text-xl hover:text-[#ff92da]">
                   CONOCE LAS BASES AQUÍ
                 </a>
                 <a
                   href="#"
-                  className="font-mona text-[#93d3e1] text-rigth  underline underline-offset-4 mb-12"
+                  className="mt-4 sm:mt-0 font-mona text-[#93d3e1] text-rigth  underline underline-offset-4 mb-12 text-xl  hover:text-[#ff92da]"
                 >
                   POSTULA
                 </a>

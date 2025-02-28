@@ -24,7 +24,7 @@ export default function Section3() {
     >
       <animated.div
         style={fadeInStyle}
-        className="w-full text-xl text-center font-bold font-mona bg-[#4a0009] text-[#f189cd]"
+        className="w-full text-xl  sm:text-2xl text-center font-bold font-mona bg-[#4a0009] text-[#f189cd]"
       >
         EXPLORA, EXPERIMENTA Y CREA EN UN ESPACIO SEGURO QUE IMPULSA NUEVAS
         NARRATIVAS
